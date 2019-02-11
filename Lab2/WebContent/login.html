@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Login Page</title>
+<script type="text/JavaScript">
+function validateForm() {
+	var ID = document.forms["login"]["ID"].value;
+	var PW = document.forms["login"]["password"].value;
+	
+	if(isBlank(ID))
+		if(isBlank(PW))
+		{
+			alert("ID or password cannot be blank!");
+			return false;
+		}	
+
+		
+	return true;
+
+	
+		
+}
+
+function isBlank(s) {
+	var i
+	for (i = 0; i < s.length; i++) {
+		if (s.charAt(i) != " ")
+			return false
+	}
+	return true
+}
+
+</script>
+</head>
+<body>
+<center>
+<form name="login" onsubmit="return validateForm()" method="post" action = "Login">
+<center><h1>Login Page</h1>
+ID : <input type = "text" name = "ID" >
+    Password : <input type = "password" name = "password"><br>
+<a href = "SearchBook.jsp"> Back to home page </a>
+<input type="submit" value="Submit">
+</center>
+</form>
+</center>
+
+</body>
+</html>
