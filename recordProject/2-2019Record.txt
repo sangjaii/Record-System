@@ -1,0 +1,11 @@
+10/2	Transport	Minibus	1A/1	$8.90000
+
+10/2	Transport	Minibus	101M	$9.70000
+10/2	Apperance	Upper	Adidas	$540.000
+10/2	Transport	Minibus	KT	$15.0000
+10/2	Transport	Bus	92	$6.80000
+
+
+10/2	Transport	Minibus	1A/1	$8.90000
+
+10/2	Transport	MTR	NA	$20.0000
